@@ -7,11 +7,12 @@ __pycache__/
 
 # Distribution / packaging
 .Python
-venv/
+env/
 build/
 develop-eggs/
 dist/
 downloads/
+expirements/
 eggs/
 .eggs/
 lib/
