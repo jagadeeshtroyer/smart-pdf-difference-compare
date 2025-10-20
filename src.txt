@@ -1,0 +1,3 @@
+{'character': ' ', 'font': 'Calibri', 'size': 0.0, 'colour': '0'}
+{'character': '\n', 'font': 'LTAnno', 'size': 0.0, 'colour': 'LTAnno'}
+{'character': '\n', 'font': 'LTAnno', 'size': 0.0, 'colour': 'LTAnno'}

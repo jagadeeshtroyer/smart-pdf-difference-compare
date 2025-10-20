@@ -263,10 +263,10 @@ def compare_and_highlight_pdf(src_path_pdf, target_path_pdf):
             src_pdf_test_output.addPage(src_pdf_page)
             dest_pdf_test_output.add_page(dest_pdf_page)
         os.makedirs(str(os.path.dirname(src_path_pdf)) + '/comparison', exist_ok=True)
-        src_hightlighted_pdf_path = open(str(os.path.dirname(src_path_pdf)) + '/comparison/' + str(
+        src_hightlighted_pdf_path = open('D:/InnovWorth/CodeRepository/innovworth-landing-ui/src/assets' + '/comparison/' + str(
             os.path.basename(src_path_pdf).split('.')[-2]) + '_highlighted_src.pdf', "wb")
         src_pdf_test_output.write(src_hightlighted_pdf_path)
-        dest_hightlighted_pdf_path = open(str(os.path.dirname(target_path_pdf)) + '/comparison/' + str(
+        dest_hightlighted_pdf_path = open('D:/InnovWorth/CodeRepository/innovworth-landing-ui/src/assets' + '/comparison/' + str(
             os.path.basename(target_path_pdf).split('.')[-2]) + '_highlighted_target.pdf', "wb")
         dest_pdf_test_output.write(dest_hightlighted_pdf_path)
         src_page_obj.close()

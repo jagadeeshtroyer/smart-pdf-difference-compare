@@ -1,0 +1,1 @@
+{'character': ' ', 'font': 'Calibri', 'size': 0.0, 'colour': '0'}
